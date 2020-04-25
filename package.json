@@ -9,10 +9,10 @@
     "stylelint-config-recommended": "^3.0.0"
   },
   "scripts": {
-    "format": "npx prettier  --write '**/*.{html,js,json,md,json,yaml,yml,jsx}'",
-    "format:check": "npx prettier  --check '**/*.{html,js,json,md,json,yaml,yml}'",
-    "lint": "npx stylelint '**/*.css' --fix",
-    "lint:check": "npx stylelint '**/*.css'",
+    "format": "npx prettier  --write **/*.{html,js,json,md,json,yaml,yml,jsx}",
+    "format:check": "npx prettier  --check **/*.{html,js,json,md,json,yaml,yml}",
+    "lint": "npx stylelint **/*.css --fix",
+    "lint:check": "npx stylelint **/*.css",
     "html-validator": "npx html-validator-cli --quiet --file  index.html"
   }
 }
