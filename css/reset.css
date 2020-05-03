@@ -234,6 +234,14 @@ a {
   text-decoration: none;
 }
 
+.nav_icons_li_a i,
+.icon,
+.ln_h2 a::after,
+.dh_h2 a::after,
+.ps_h2 a::after {
+  width: 16px;
+}
+
 .ln_h2 a::after,
 .dh_h2 a::after,
 .ps_h2 a::after,
@@ -243,6 +251,59 @@ a {
 .ps_article_a,
 .ps_article_a_div {
   top: 0;
+}
+
+.nav_logo img,
+.nav_icons_li_a i,
+.icon,
+.ln_h2 a::after,
+.dh_h2 a::after,
+.ps_h2 a::after {
+  height: 16px;
+}
+
+.ln_h2 a::after,
+.dh_h2 a::after,
+.ps_h2 a::after,
+.socials_li,
+.footer_lm_li,
+.footer_legal_span_a_img {
+  display: inline-block;
+}
+
+.ln_h2 a::after,
+.dh_h2 a::after,
+.ps_h2 a::after,
+.dd_div::before,
+.invest_ul::after,
+.ps_ul_li h4 a::before {
+  content: "";
+}
+
+.ln_h2 a::after,
+.dh_h2 a::after,
+.ps_h2 a::after {
+  background-image: url(../images/do.svg);
+  background-size: 16px 16px;
+  margin-left: 4px;
+  position: relative;
+}
+
+.nav_icons_li_a span,
+.nav_icons_li_a i,
+.icon,
+.ln_inner_ul li a::after,
+.ps_header_ul li a::after,
+.dd_div::before,
+.invest_ul::after,
+.ps_ul_li h4 a::before {
+  display: block;
+}
+
+.nav_icons_li_a i,
+.icon {
+  background: transparent url(../images/icons-sprite.svg) no-repeat;
+  background-size: 1296px 1296px;
 }
 
 .navbar,
@@ -318,17 +379,6 @@ a {
 }
 
 .nav_icons_li_a span,
-.nav_icons_li_a i,
-.icon,
-.ln_inner_ul li a::after,
-.ps_header_ul li a::after,
-.dd_div::before,
-.invest_ul::after,
-.ps_ul_li h4 a::before {
-  display: block;
-}
-
-.nav_icons_li_a span,
 .invest_h4,
 .ps_ul_li h4 a::before {
   background: #f42;
@@ -341,29 +391,6 @@ a {
   margin-top: 3px;
   top: 50%;
   width: 20px;
-}
-
-.nav_icons_li_a i,
-.icon {
-  background: transparent url(../images/icons-sprite.svg) no-repeat;
-  background-size: 1296px 1296px;
-}
-
-.nav_icons_li_a i,
-.icon,
-.ln_h2 a::after,
-.dh_h2 a::after,
-.ps_h2 a::after {
-  width: 16px;
-}
-
-.nav_logo img,
-.nav_icons_li_a i,
-.icon,
-.ln_h2 a::after,
-.dh_h2 a::after,
-.ps_h2 a::after {
-  height: 16px;
 }
 
 .nav_icons_li_a i {
@@ -486,33 +513,6 @@ a {
 
 .dh_h2 {
   line-height: 32px;
-}
-
-.ln_h2 a::after,
-.dh_h2 a::after,
-.ps_h2 a::after,
-.socials_li,
-.footer_lm_li,
-.footer_legal_span_a_img {
-  display: inline-block;
-}
-
-.ln_h2 a::after,
-.dh_h2 a::after,
-.ps_h2 a::after,
-.dd_div::before,
-.invest_ul::after,
-.ps_ul_li h4 a::before {
-  content: "";
-}
-
-.ln_h2 a::after,
-.dh_h2 a::after,
-.ps_h2 a::after {
-  background-image: url(../images/do.svg);
-  background-size: 16px 16px;
-  margin-left: 4px;
-  position: relative;
 }
 
 .ln_ul {
@@ -677,14 +677,44 @@ a {
   padding-top: 4px;
 }
 
+.ps_header_ul a {
+  color: inherit;
+}
+
+.socials_li {
+  margin: 0 3px;
+}
+
+.socials_li a {
+  background: #333;
+  border-radius: 50%;
+  height: 40px;
+  padding: 12px;
+  width: 40px;
+}
+
 .ln_inner_ul,
 .ln_inner_ul a,
 .invest_ul_a span,
-.ps_ul_li h4 a:visited,
-.price,
 .footer_lm_li a,
+.price,
 .footer_legal {
   color: #aaa;
+}
+
+.invest_d_a,
+.invest_ul_a,
+.ps_ul_li h4 a,
+.discount_price {
+  color: #555;
+}
+
+.ps_ul_li h4 {
+  line-height: 1.5;
+}
+
+.ps_ul_li h4 a {
+  padding: 6px 0 6px 14px;
 }
 
 .ln_inner_ul li a::after,
@@ -769,17 +799,6 @@ a {
   padding: 16px;
 }
 
-.invest_d_a:not(:last-child) {
-  margin-bottom: 0.5em;
-}
-
-.invest_d_a,
-.invest_ul_a,
-.ps_ul_li h4 a,
-.discount_price {
-  color: #555;
-}
-
 .invest_d_a,
 .ps_header_h5,
 .ps_article2_header h5,
@@ -793,6 +812,10 @@ a {
   padding-left: 2em;
   margin-right: 1em;
   line-height: 22px;
+}
+
+.invest_d_a:not(:last-child) {
+  margin-bottom: 0.5em;
 }
 
 .invest_d_a .icon {
@@ -858,10 +881,6 @@ a {
   line-height: 16px;
 }
 
-.ps_header_ul a {
-  color: inherit;
-}
-
 .ps_article2 {
   background-color: rgba(255, 68, 34, 0.06);
   margin: 2px 0;
@@ -885,14 +904,6 @@ a {
 
 .ps_ul_li {
   border-bottom: 1px solid #eee;
-}
-
-.ps_ul_li h4 {
-  line-height: 1.5;
-}
-
-.ps_ul_li h4 a {
-  padding: 6px 0 6px 14px;
 }
 
 .ps_ul_li h4 a::before {
@@ -921,18 +932,6 @@ a {
 
 .socials {
   margin-bottom: 1.5em;
-}
-
-.socials_li {
-  margin: 0 3px;
-}
-
-.socials_li a {
-  background: #333;
-  border-radius: 50%;
-  height: 40px;
-  padding: 12px;
-  width: 40px;
 }
 
 .facebook {

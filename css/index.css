@@ -96,6 +96,10 @@
     height: 80px;
   }
 
+  .navbar_ul a {
+    color: #fff;
+  }
+
   .navbar_ul,
   .navbar_ul2,
   .navbar_ul2 li a,
@@ -118,10 +122,6 @@
     padding-left: 105px;
   }
 
-  .navbar_ul li:first-child {
-    margin-left: 20px;
-  }
-
   .navbar_ul li,
   .navbar_ul2 li,
   .discount_div {
@@ -137,12 +137,12 @@
     margin-left: 12px;
   }
 
-  .navbar_ul a {
-    color: #fff;
-  }
-
   .navbar_ul2 {
     left: 106px;
+  }
+
+  .navbar_ul li:first-child {
+    margin-left: 20px;
   }
 
   .navbar_ul2 li a,
