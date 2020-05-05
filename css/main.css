@@ -203,11 +203,11 @@
 }
 
 .sec_cover_div1_div {
-  background: url(../images/tesla.jpg) no-repeat;
+  background: url(../images/Tesla.jpg) no-repeat;
 }
 
 .sec_cover_div2_div {
-  background: url(../images/twitter.jpg) no-repeat;
+  background: url(../images/Twitter.jpg) no-repeat;
 }
 
 .cover_a,
@@ -566,7 +566,6 @@
 
 .invest h4 {
   font-size: 16px;
-  margin-bottom: 12px;
 }
 
 .invest h5 {
@@ -586,8 +585,8 @@
 
 .invest_h4 {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
-  margin: 0 !important;
-  font-size: 18px !important;
+  margin: 0;
+  font-size: 18px;
 }
 
 .invest_div {
