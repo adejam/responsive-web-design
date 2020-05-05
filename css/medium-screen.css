@@ -1,0 +1,209 @@
+.nav_logo_a,
+.navbar {
+  height: 80px;
+}
+
+.navbar_ul a {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.navbar_ul,
+.navbar_ul2,
+.navbar_ul2 li a,
+.dd_div::after,
+.discount {
+  display: block;
+}
+
+.navbar_ul {
+  background: #131313;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+}
+
+.navbar_ul2,
+.navbar_ul {
+  padding-left: 105px;
+}
+
+.navbar_ul li,
+.navbar_ul2 li,
+.discount_div {
+  position: relative;
+}
+
+.navbar_ul li,
+.navbar_ul2 li {
+  float: left;
+}
+
+.navbar_ul li {
+  margin-left: 12px;
+}
+
+.navbar_ul2 {
+  left: 106px;
+}
+
+.navbar_ul li:first-child {
+  margin-left: 20px;
+}
+
+.navbar_ul2 li a,
+.discount_div {
+  text-transform: uppercase;
+}
+
+.navbar_ul2 li a {
+  color: #aaa;
+  height: 48px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+}
+
+.navbar_ul a:hover {
+  color: #fff;
+}
+
+.yellow_nav {
+  margin-left: -106px;
+  padding-left: 126px;
+  text-align: left;
+}
+
+.not_show {
+  display: none;
+}
+
+.first_cover {
+  flex-basis: 66.66666%;
+}
+
+.sec_cover {
+  flex-basis: 33.33333%;
+}
+
+.main_section {
+  height: 60vh;
+}
+
+.ln,
+.deals,
+.deals_div {
+  margin-bottom: 3em;
+}
+
+.ln_ul {
+  margin: -10px;
+}
+
+.ln_ul_li {
+  padding: 10px;
+}
+
+.col_m {
+  flex-basis: 33.3333333333%;
+  max-width: 33.3333333333%;
+}
+
+.distraction-title,
+h2 {
+  font-size: 28px;
+}
+
+.dd_div {
+  padding: 10px;
+}
+
+.dd_div::before {
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+}
+
+.dd_div::after {
+  clear: both;
+  content: "";
+}
+
+.deal_header_a {
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.deal_header_a:first-of-type {
+  padding-left: 0;
+}
+
+.deal_header_a:not(:last-of-type) {
+  border-right: 1px solid rgba(255, 68, 34, 0.25);
+}
+
+.deals_header_div {
+  margin-top: 10px;
+}
+
+.popular {
+  margin: -10px -10px 40px;
+}
+
+.col_m2 {
+  flex-basis: 50%;
+  max-width: 50%;
+  padding: 10px;
+}
+
+.story {
+  background-position: 0 100%;
+  padding-top: 74.5%;
+}
+
+.discount {
+  background-image: url(../images/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #000;
+  height: 80px;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  z-index: 10;
+}
+
+.discount_div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  text-align: center;
+  top: 20px;
+  width: 100%;
+}
+
+.footer_links {
+  padding: 3em 0 2em;
+}
+
+.socials_li {
+  margin: 0 8px;
+}
+
+.footer_lm_li {
+  margin: 0 6px;
+}
+
+.footer_legal {
+  padding: 3em 0;
+}
+
+.footer_legal_span {
+  display: inline;
+}
