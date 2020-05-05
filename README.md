@@ -2,7 +2,7 @@
 
 > The main objective of this project is to build a responsive website by cloning [The Next Web Homepage](https://thenextweb.com/) to demostrate the use of CSS media queries in adapting a webpage to different device width using HTML and CSS.
 
-![screenshot](./app_screenshot.png)
+![screenshot](/images/screenshot.png)
 
 The project uses semantic html and CSS positioning and floating elements. CSS flexbox in conjunction with CSS float property is used for effective positioning of the elements.CSS Media Queries for responsive design.
 
