@@ -1,1 +1,235 @@
-/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  box-sizing: border-box;
+  outline: none;
+  height: 100%;
+  width: 100%;
+}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+div,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+ol,
+p,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+.story_title {
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h5 {
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+h5,
+.ps_header_ul,
+.footer_lm_li {
+  font-weight: 500;
+}
+
+h5,
+.footer_lm_li {
+  text-transform: uppercase;
+}
+
+.ps_article2_header h5,
+h2,
+h3,
+a {
+  color: #f42;
+}
+
+.pos_rel {
+  position: relative;
+}
+
+.pos_abs {
+  position: absolute;
+}
+
+.no_m {
+  margin: 0;
+}
+
+.no_p {
+  padding: 0;
+}
+
+.td_underline {
+  text-decoration: underline;
+}
+
+.ls_none {
+  list-style: none;
+}
+
+.ta_center {
+  text-align: center;
+}
+
+.d_flex {
+  display: flex;
+}
+
+.dir_c {
+  flex-direction: column;
+}
+
+.dir_r {
+  flex-direction: row;
+}
+
+.flex_wrap {
+  flex-wrap: wrap;
+}
+
+.grow_1 {
+  flex-grow: 1;
+}
+
+.grow_2 {
+  flex-grow: 2;
+}
+
+.d_block {
+  display: block;
+}
+
+.d_none {
+  display: none;
+}
+
+.d_inline {
+  display: inline;
+}
+
+.bs_bb {
+  box-sizing: border-box;
+}
+
+.c_b {
+  color: rgb(0, 0, 0);
+}
+
+.c_w {
+  color: rgb(255, 255, 255);
+}
+
+.w_full {
+  width: 100%;
+}
+
+.w_half {
+  width: 50%;
+}
+
+.zi_1 {
+  z-index: 1;
+}
+
+.zi_2 {
+  z-index: 2;
+}
+
+.zi_3 {
+  z-index: 3;
+}
+
+.o_h {
+  overflow: hidden;
+}
+
+.f_l {
+  float: left;
+}
+
+.f_r {
+  float: right;
+}
+
+a {
+  text-decoration: none;
+}

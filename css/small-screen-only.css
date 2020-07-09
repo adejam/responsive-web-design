@@ -1,0 +1,38 @@
+.first_cover,
+.sec_cover_div1,
+.sec_cover_div2,
+.small_flex {
+  position: relative;
+}
+
+.first_cover,
+.sec_cover_div1,
+.sec_cover_div2 {
+  min-height: 30vh;
+}
+
+.cover_header_h2 {
+  font-size: 20px;
+}
+
+.col_s {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.small_flex {
+  min-height: 72px;
+  padding-left: 88px;
+}
+
+.ln_li_a {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.deal_header_a {
+  display: block;
+}
